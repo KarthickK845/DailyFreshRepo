@@ -1,0 +1,175 @@
+devops8@domainc MINGW64 ~
+$ ^C
+
+devops8@domainc MINGW64 ~
+$ dir
+3D\ Objects
+AppData
+Application\ Data
+Contacts
+Cookies
+Desktop
+Documents
+Downloads
+Favorites
+GitRepo
+Links
+Local\ Settings
+Music
+My\ Documents
+NTUSER.DAT
+NTUSER.DAT{c76cbcdb-afc9-11eb-8234-000d3aa6d50e}.TM.blf
+NTUSER.DAT{c76cbcdb-afc9-11eb-8234-000d3aa6d50e}.TMContainer00000000000000000001.regtrans-ms
+NTUSER.DAT{c76cbcdb-afc9-11eb-8234-000d3aa6d50e}.TMContainer00000000000000000002.regtrans-ms
+NetHood
+Pictures
+Postman
+PrintHood
+Recent
+Saved\ Games
+Searches
+SendTo
+Start\ Menu
+Templates
+Videos
+WINDOWS
+kafka
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+
+devops8@domainc MINGW64 ~
+$ C:
+bash: C:: command not found
+
+devops8@domainc MINGW64 ~
+$ cd C:\Java_Projects_Karthick K\DailyFresh-Items
+bash: cd: too many arguments
+
+devops8@domainc MINGW64 ~
+$ cd C:\spring-tool-suite_devops8
+
+devops8@domainc MINGW64 /c/spring-tool-suite_devops8
+$ cd DailyFresh-Items
+
+devops8@domainc MINGW64 /c/spring-tool-suite_devops8/DailyFresh-Items
+$ git init
+Initialized empty Git repository in C:/spring-tool-suite_devops8/DailyFresh-Items/.git/
+
+devops8@domainc MINGW64 /c/spring-tool-suite_devops8/DailyFresh-Items (master)
+$ git remote add origin https://github.com/KarthickK845/DailyFreshRepo.git
+
+devops8@domainc MINGW64 /c/spring-tool-suite_devops8/DailyFresh-Items (master)
+$ git add .
+warning: in the working copy of '.gitattributes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.mvn/wrapper/maven-wrapper.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'mvnw.cmd', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'pom.xml', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/java/com/item/DailyFreshItemsApplication.java', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main/resources/application.properties', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/test/java/com/item/DailyFreshItemsApplicationTests.java', LF will be replaced by CRLF the next time Git touches it
+
+devops8@domainc MINGW64 /c/spring-tool-suite_devops8/DailyFresh-Items (master)
+$ dir
+HELP.md  mvnw  mvnw.cmd  pom.xml  src  target
+
+devops8@domainc MINGW64 /c/spring-tool-suite_devops8/DailyFresh-Items (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitattributes
+        new file:   .gitignore
+        new file:   .mvn/wrapper/maven-wrapper.properties
+        new file:   mvnw
+        new file:   mvnw.cmd
+        new file:   pom.xml
+        new file:   src/main/java/com/item/DailyFreshItemsApplication.java
+        new file:   src/main/java/com/item/advice/GlobalExceptionHandler.java
+        new file:   src/main/java/com/item/db/ItemRepository.java
+        new file:   src/main/java/com/item/dto/request/ItemAddRequest.java
+        new file:   src/main/java/com/item/dto/request/ItemDeleteRequest.java
+        new file:   src/main/java/com/item/dto/request/ItemUpdateRequest.java
+        new file:   src/main/java/com/item/dto/response/ErrorResponse.java
+        new file:   src/main/java/com/item/dto/response/ItemAddResponse.java
+        new file:   src/main/java/com/item/dto/response/ItemDeleteResponse.java
+        new file:   src/main/java/com/item/dto/response/ItemModifyResponse.java
+        new file:   src/main/java/com/item/dto/response/ItemSearchResponse.java
+        new file:   src/main/java/com/item/dto/response/ItemShowAllByCategoryResponse.java
+        new file:   src/main/java/com/item/dto/response/ItemShowAllByNameResponse.java
+        new file:   src/main/java/com/item/dto/response/ItemShowAllResponse.java
+        new file:   src/main/java/com/item/exception/ItemNotFoundException.java
+        new file:   src/main/java/com/item/model/Item.java
+        new file:   src/main/java/com/item/service/ItemService.java
+        new file:   src/main/java/com/item/ui/ItemController.java
+        new file:   src/main/resources/application.properties
+        new file:   src/test/java/com/item/DailyFreshItemsApplicationTests.java
+
+
+devops8@domainc MINGW64 /c/spring-tool-suite_devops8/DailyFresh-Items (master)
+$ git commit -m "This is my first commit of Items project"
+[master (root-commit) dc1454f] This is my first commit of Items project
+ 26 files changed, 1262 insertions(+)
+ create mode 100644 .gitattributes
+ create mode 100644 .gitignore
+ create mode 100644 .mvn/wrapper/maven-wrapper.properties
+ create mode 100644 mvnw
+ create mode 100644 mvnw.cmd
+ create mode 100644 pom.xml
+ create mode 100644 src/main/java/com/item/DailyFreshItemsApplication.java
+ create mode 100644 src/main/java/com/item/advice/GlobalExceptionHandler.java
+ create mode 100644 src/main/java/com/item/db/ItemRepository.java
+ create mode 100644 src/main/java/com/item/dto/request/ItemAddRequest.java
+ create mode 100644 src/main/java/com/item/dto/request/ItemDeleteRequest.java
+ create mode 100644 src/main/java/com/item/dto/request/ItemUpdateRequest.java
+ create mode 100644 src/main/java/com/item/dto/response/ErrorResponse.java
+ create mode 100644 src/main/java/com/item/dto/response/ItemAddResponse.java
+ create mode 100644 src/main/java/com/item/dto/response/ItemDeleteResponse.java
+ create mode 100644 src/main/java/com/item/dto/response/ItemModifyResponse.java
+ create mode 100644 src/main/java/com/item/dto/response/ItemSearchResponse.java
+ create mode 100644 src/main/java/com/item/dto/response/ItemShowAllByCategoryResponse.java
+ create mode 100644 src/main/java/com/item/dto/response/ItemShowAllByNameResponse.java
+ create mode 100644 src/main/java/com/item/dto/response/ItemShowAllResponse.java
+ create mode 100644 src/main/java/com/item/exception/ItemNotFoundException.java
+ create mode 100644 src/main/java/com/item/model/Item.java
+ create mode 100644 src/main/java/com/item/service/ItemService.java
+ create mode 100644 src/main/java/com/item/ui/ItemController.java
+ create mode 100644 src/main/resources/application.properties
+ create mode 100644 src/test/java/com/item/DailyFreshItemsApplicationTests.java
+
+devops8@domainc MINGW64 /c/spring-tool-suite_devops8/DailyFresh-Items (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+devops8@domainc MINGW64 /c/spring-tool-suite_devops8/DailyFresh-Items (master)
+$ git push -u origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/KarthickK845/DailyFreshRepo.git'
+
+devops8@domainc MINGW64 /c/spring-tool-suite_devops8/DailyFresh-Items (master)
+$ git push -u origin master
+Enumerating objects: 49, done.
+Counting objects: 100% (49/49), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (38/38), done.
+Writing objects: 100% (49/49), 13.77 KiB | 486.00 KiB/s, done.
+Total 49 (delta 10), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (10/10), done.
+To https://github.com/KarthickK845/DailyFreshRepo.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+
+devops8@domainc MINGW64 /c/spring-tool-suite_devops8/DailyFresh-Items (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+devops8@domainc MINGW64 /c/spring-tool-suite_devops8/DailyFresh-Items (master)
+$

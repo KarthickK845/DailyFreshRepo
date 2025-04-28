@@ -1,0 +1,86 @@
+CREATE operation
+=================
+http://localhost:9011/add
+
+Method POST
+
+Request body
+
+{
+   "item":{
+       "itemName":"Curd-500ML",
+		"category":"Dairy",
+		"purchasePrice":35.00,
+		"sellingPrice":40.00
+   }
+    
+}
+
+Response body
+
+{
+    "statusCode": 201,
+    "description": "Item Added Successfully",
+    "item": {
+        "itemId": 100,
+        "itemName": "Milk-500ML",
+        "category": "Dairy",
+        "purchasePrice": 20.0,
+        "sellingPrice": 25.0
+    }
+}
+
+UPDATE operation
+=================
+http://localhost:9011/modify
+
+Method PUT
+
+Request body
+
+{
+   "item":{
+       "itemId":102,
+       "itemName":"Paneer-100g",
+    "category":"Dairy",
+    "purchasePrice":42.00,
+    "sellingPrice":48.00
+   }
+    
+}
+
+Response body
+
+{
+    "statusCode": 200,
+    "description": "Item Modified Successfully",
+    "item": {
+        "itemId": 102,
+        "itemName": "Paneer-100g",
+        "category": "Dairy",
+        "purchasePrice": 42.0,
+        "sellingPrice": 48.0
+    }
+}
+
+
+READ/FIND operation
+====================
+Method GET
+
+http://localhost:9011/find/105
+
+Response body
+
+{
+    "statusCode": 200,
+    "description": "Item Fetched Successfully",
+    "item": {
+        "itemId": 105,
+        "itemName": "Notebook",
+        "category": "Stationery",
+        "purchasePrice": 30.0,
+        "sellingPrice": 35.0
+    }
+}
+
