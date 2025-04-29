@@ -1,0 +1,8 @@
+item_id,category,item_name,purchase_price,selling_price
+100,Dairy,Milk-500ML,20,25
+101,Dairy,Curd-500ML,35,40
+102,Dairy,Paneer-100g,42,48
+103,Grocery,BasmatiRice-1Kg,75,85
+104,Grocery,"Wheat flour-1Kg",50,55
+105,Stationery,Notebook,30,35
+106,Stationery,"Sticky Notes",20,25
